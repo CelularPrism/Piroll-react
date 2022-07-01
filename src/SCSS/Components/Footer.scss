@@ -1,0 +1,134 @@
+.Footer {
+    height: 284px;
+    width: 100%;
+
+    background-color: #141414;
+    padding-top: 100px;
+
+    .footer_company {
+        .name {
+            font-size: 18px;
+            font-weight: 700;
+
+            color: #ffffff;
+
+            margin-bottom: 25px;
+        }
+
+        .rights {
+            font-size: 15px;
+            color: #a6a6a6;
+
+            margin-bottom: 10px;
+        }
+
+        .designer {
+            font-size: 15px;
+            color: #a6a6a6;
+        }
+    }
+
+    .footer_contacts {
+        .mail {
+            font-size: 15px;
+
+            text-decoration: none;
+            color: #a6a6a6;
+
+            margin-bottom: 10px;
+        }
+
+        .phone {
+            font-size: 15px;
+            color: #a6a6a6;
+        }
+    }
+
+    .footer_links {
+        display: flex;
+        justify-content: space-evenly;
+        .links_col {
+            .link {
+                font-size: 15px;
+                text-decoration: none;
+
+                color: #a6a6a6;
+
+                display: block;
+                margin: auto;
+                margin-bottom: 10px;
+            }
+
+            .link:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .footer_social {
+        .link {
+            font-size: 15px;
+            text-decoration: none;
+
+            color: #a6a6a6;
+
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        .link:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .Footer {
+        height: 184px;
+        padding-top: 50px;
+
+        .container {
+            .footer_company {
+                .name {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                }
+
+                .rights {
+                    font-size: 10px;
+                }
+
+                .designer {
+                    font-size: 10px;
+                }
+            }
+
+            .footer_contacts {
+                .mail {
+                    font-size: 10px;
+                }
+
+                .phone {
+                    font-size: 10px;
+                }
+            }
+
+            .footer_links {
+                .links_col {
+                    .link {
+                        font-size: 10px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .footer_social {
+                .link {
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}

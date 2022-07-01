@@ -1,0 +1,50 @@
+.Header {
+    height: 100px;
+
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+
+    .container {
+        width: 100%;
+        margin: auto;
+        
+        .links {
+            display: flex;
+            justify-content: flex-end;
+
+            .block_link {
+                margin-right: 10px;
+
+                .link {
+                    font-size: 12px;
+                    font-weight: 700;
+
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #412727;
+                    //outline: none;
+                }
+
+                .link:hover {
+                    transition: 0.5s;
+                    color: #10c9c3;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .Header {
+        .container {
+            .links {
+                .block_link {
+                    .link {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

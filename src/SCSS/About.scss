@@ -1,0 +1,12 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@import url('./Components/Header.scss');
+@import url('./Components/About/Banner.scss');
+@import url('./Components/About/Statistic.scss');
+@import url('./Components/About/Author.scss');
+@import url('./Components/About/NeedAProject.scss');
+@import url('./Components/Button.scss');
+@import url('./Components/Footer.scss');
